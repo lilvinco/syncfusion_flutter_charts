@@ -318,7 +318,7 @@ class MarkerSettingsRenderer {
     }
     MarkerRenderArgs? event;
     borderColor = series.markerSettings.borderColor ?? seriesColor;
-    color = series.markerSettings.color;
+    // color = series.markerSettings.color;
     borderWidth = series.markerSettings.borderWidth;
     final bool isMarkerEventTriggered =
         CartesianPointHelper.getIsMarkerEventTriggered(point);

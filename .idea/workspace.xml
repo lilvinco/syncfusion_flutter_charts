@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d0ea9a15-5024-40ef-845a-362720e66cfa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/chart/chart_series/series_renderer_properties.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/chart/chart_series/series_renderer_properties.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/chart/common/marker.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/chart/common/marker.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651327650139</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="series renderer">
+      <created>1651329463157</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651329463160</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -126,20 +135,25 @@
     <MESSAGE value="rtl" />
     <MESSAGE value="align left" />
     <MESSAGE value="tiy" />
-    <option name="LAST_COMMIT_MESSAGE" value="tiy" />
+    <MESSAGE value="series renderer" />
+    <option name="LAST_COMMIT_MESSAGE" value="series renderer" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1651327649819">
+    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1651329462917">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1651327649819" />
+    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1651329462917" />
     <state x="345" y="327" key="Github.ShareDialog" timestamp="1651316706111">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
     <state x="345" y="327" key="Github.ShareDialog/0.25.1440.825@0.25.1440.825" timestamp="1651316706111" />
-    <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1651327664155">
+    <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1651329474041">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="131" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1651327664155" />
+    <state x="131" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1651329474041" />
+    <state x="224" y="181" width="615" height="490" key="find.popup" timestamp="1651329367979">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state x="224" y="181" width="615" height="490" key="find.popup/0.25.1440.825@0.25.1440.825" timestamp="1651329367979" />
   </component>
 </project>
