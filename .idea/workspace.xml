@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651329463160</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="series renderer">
+      <created>1651330651270</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1651330651279</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -139,18 +146,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="series renderer" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1651329462917">
+    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1651330650854">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1651329462917" />
+    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1651330650853" />
     <state x="345" y="327" key="Github.ShareDialog" timestamp="1651316706111">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
     <state x="345" y="327" key="Github.ShareDialog/0.25.1440.825@0.25.1440.825" timestamp="1651316706111" />
-    <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1651329474041">
+    <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1651330660341">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="131" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1651329474041" />
+    <state x="131" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1651330660341" />
     <state x="224" y="181" width="615" height="490" key="find.popup" timestamp="1651329367979">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
