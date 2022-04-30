@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0ea9a15-5024-40ef-845a-362720e66cfa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/src/chart/utils/helper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/chart/utils/helper.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/chart/axis/numeric_axis.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/chart/axis/numeric_axis.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651326649113</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="align left">
+      <created>1651326962296</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651326962296</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -110,20 +117,21 @@
     <MESSAGE value="pub" />
     <MESSAGE value=".series err" />
     <MESSAGE value="rtl" />
-    <option name="LAST_COMMIT_MESSAGE" value="rtl" />
+    <MESSAGE value="align left" />
+    <option name="LAST_COMMIT_MESSAGE" value="align left" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1651326648513">
+    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1651326962115">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1651326648513" />
+    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1651326962115" />
     <state x="345" y="327" key="Github.ShareDialog" timestamp="1651316706111">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
     <state x="345" y="327" key="Github.ShareDialog/0.25.1440.825@0.25.1440.825" timestamp="1651316706111" />
-    <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1651326659259">
+    <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1651326974660">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="131" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1651326659259" />
+    <state x="131" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1651326974660" />
   </component>
 </project>

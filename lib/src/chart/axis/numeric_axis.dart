@@ -585,11 +585,11 @@ class NumericAxisDetails extends ChartAxisRendererDetails {
 
   /// Holds the value of axis padding
   // ignore:unused_field
-  final int axisPadding = 5;
+  final int axisPadding = 10;
 
   /// Holds the value of inner padding
   // ignore:unused_field
-  final int innerPadding = 5;
+  final int innerPadding = 25;
 
   @override
   late Size axisSize;
