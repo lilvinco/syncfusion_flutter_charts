@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0ea9a15-5024-40ef-845a-362720e66cfa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/chart/utils/helper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/chart/utils/helper.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651321635096</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=".series err">
+      <created>1651322056299</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651322056299</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -98,17 +106,17 @@
     <option name="LAST_COMMIT_MESSAGE" value=".series err" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1651321634936">
+    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1651322056161">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1651321634936" />
+    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1651322056161" />
     <state x="345" y="327" key="Github.ShareDialog" timestamp="1651316706111">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
     <state x="345" y="327" key="Github.ShareDialog/0.25.1440.825@0.25.1440.825" timestamp="1651316706111" />
-    <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1651321644509">
+    <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1651322065496">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="131" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1651321644509" />
+    <state x="131" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1651322065496" />
   </component>
 </project>

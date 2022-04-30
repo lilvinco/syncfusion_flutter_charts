@@ -46,8 +46,9 @@ void drawText(Canvas canvas, String text, Offset point, TextStyle style,
   final TextSpan span = TextSpan(text: text, style: style);
   final TextPainter tp = TextPainter(
       text: span,
-      textDirection:
-          isRtl == true ? dart_ui.TextDirection.rtl : dart_ui.TextDirection.ltr,
+      textDirection: isRtl == false
+          ? dart_ui.TextDirection.rtl
+          : dart_ui.TextDirection.ltr,
       textAlign: TextAlign.center,
       maxLines: maxLines);
   tp.layout();
