@@ -1886,8 +1886,8 @@ class SfCartesianChartState extends State<SfCartesianChart>
     for (int i = 0; i < _seriesRenderers.length; i++) {
       final SeriesRendererDetails seriesRendererDetails =
           SeriesHelper.getSeriesRendererDetails(_seriesRenderers[i]);
-      seriesRendererDetails.seriesName = seriesRendererDetails.series.name ??
-          '${SfLocalizations.of(context).series} $i';
+      seriesRendererDetails.seriesName = seriesRendererDetails.series.name;
+      // ??     '${SfLocalizations.of(context).series} $i';
       final CartesianSeries<dynamic, dynamic> cartesianSeries =
           seriesRendererDetails.series;
       seriesRendererDetails.markerSettingsRenderer =
