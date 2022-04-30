@@ -293,17 +293,18 @@ class SeriesRendererDetails {
         !(series.markerSettings.width != null) ||
             series.markerSettings.width >= 0,
         'The width of the marker must be greater than or equal to 0.');
-    for (int pointIndex = 0; pointIndex < dataPoints.length; pointIndex++) {
-      if (pointIndex != 0 && pointIndex != dataPoints.indexOf(dataPoints.last))
-        break;
-      final CartesianChartPoint<dynamic> point = dataPoints[pointIndex];
-      if ((series.markerSettings.isVisible &&
-              renderer is! BoxAndWhiskerSeriesRenderer) ||
-          renderer is ScatterSeriesRenderer) {
-        markerSettingsRenderer?.renderMarker(
-            this, point, animationController, canvas, pointIndex);
-      }
+    //for (int pointIndex = 0; pointIndex < dataPoints.length; pointIndex++) {
+    final CartesianChartPoint<dynamic> point = dataPoints.first;
+    final CartesianChartPoint<dynamic> point2 = dataPoints.last;
+    if ((series.markerSettings.isVisible &&
+            renderer is! BoxAndWhiskerSeriesRenderer) ||
+        renderer is ScatterSeriesRenderer) {
+      markerSettingsRenderer?.renderMarker(
+          this, point, animationController, canvas, 0);
+      markerSettingsRenderer?.renderMarker(
+          this, point2, animationController, canvas, dataPoints.length - 1);
     }
+    // }
   }
 
   /// Method to repaint the series element
