@@ -302,7 +302,7 @@ class SeriesRendererDetails {
                   renderer is! BoxAndWhiskerSeriesRenderer) ||
               renderer is ScatterSeriesRenderer) {
             markerSettingsRenderer?.renderMarker(this, point,
-                animationController, canvas, dataPoints.length - 1);
+                animationController, canvas, pointIndex, dataPoints.length - 1);
           }
         } catch (e, s) {
           print(e);
