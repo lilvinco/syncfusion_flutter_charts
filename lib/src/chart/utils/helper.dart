@@ -62,6 +62,11 @@ void drawText(Canvas canvas, String text, Offset point, TextStyle style,
       size: _textSize(text, style),
       alignment: PlaceholderAlignment.middle,
       baseline: TextBaseline.ideographic,
+    ),
+    PlaceholderDimensions(
+      size: _textSize(text, style),
+      alignment: PlaceholderAlignment.middle,
+      baseline: TextBaseline.ideographic,
     )
   ]);
   tp.layout();
@@ -81,7 +86,7 @@ Size _textSize(String text, TextStyle style) {
       text: TextSpan(text: text, style: style),
       maxLines: 1,
       textDirection: TextDirection.ltr)
-    ..layout(minWidth: 0, maxWidth: double.infinity);
+    ..layout(minWidth: 50, maxWidth: double.infinity);
   print(textPainter.size);
   return textPainter.size;
 }
