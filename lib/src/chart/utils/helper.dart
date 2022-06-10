@@ -43,12 +43,12 @@ num? percentageToValue(String? value, num size) {
 void drawText(Canvas canvas, String text, Offset point, TextStyle style,
     [int? angle, bool? isRtl]) {
   final int maxLines = getMaxLinesContent(text);
-  final Text span = Text(text, style: style, textAlign: TextAlign.left);
+  final TextSpan span = TextSpan(text: text, style: style);
   final TextPainter tp = TextPainter(
       text: span,
       textDirection:
           isRtl == true ? dart_ui.TextDirection.rtl : dart_ui.TextDirection.ltr,
-      textAlign: TextAlign.left,
+      textAlign: TextAlign.right,
       maxLines: maxLines);
   tp.layout();
   canvas.save();
