@@ -4,7 +4,7 @@ import 'dart:math';
 import 'dart:ui' as dart_ui;
 
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
+import 'package:intl/intl.dart' hide TextDirection;
 import 'package:syncfusion_flutter_core/core.dart';
 
 import './../../circular_chart/utils/helper.dart';
@@ -77,9 +77,10 @@ void drawText(Canvas canvas, String text, Offset point, TextStyle style,
 
 Size _textSize(String text, TextStyle style) {
   final TextPainter textPainter = TextPainter(
-    text: TextSpan(text: text, style: style),
-    maxLines: 1,
-  )..layout(minWidth: 0, maxWidth: double.infinity);
+      text: TextSpan(text: text, style: style),
+      maxLines: 1,
+      textDirection: TextDirection.ltr)
+    ..layout(minWidth: 0, maxWidth: double.infinity);
   return textPainter.size;
 }
 
