@@ -43,8 +43,7 @@ num? percentageToValue(String? value, num size) {
 void drawText(Canvas canvas, String text, Offset point, TextStyle style,
     [int? angle, bool? isRtl]) {
   final int maxLines = getMaxLinesContent(text);
-  final TextSpan span = WidgetSpan(
-      child: text, style: style, alignment: PlaceholderAlignment.middle);
+  final Text span = Text(text, style: style, textAlign: TextAlign.left);
   final TextPainter tp = TextPainter(
       text: span,
       textDirection:
