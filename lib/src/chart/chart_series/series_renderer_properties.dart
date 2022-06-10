@@ -301,8 +301,8 @@ class SeriesRendererDetails {
           if ((series.markerSettings.isVisible &&
                   renderer is! BoxAndWhiskerSeriesRenderer) ||
               renderer is ScatterSeriesRenderer) {
-            markerSettingsRenderer?.renderMarker(
-                this, point, animationController, canvas, pointIndex);
+            markerSettingsRenderer?.renderMarker(this, point,
+                animationController, canvas, dataPoints.length - 1);
           }
         } catch (e, s) {
           print(e);
