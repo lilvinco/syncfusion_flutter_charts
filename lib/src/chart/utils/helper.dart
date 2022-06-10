@@ -44,11 +44,10 @@ void drawText(Canvas canvas, String text, Offset point, TextStyle style,
     [int? angle, bool? isRtl]) {
   final int maxLines = getMaxLinesContent(text);
   //final TextSpan span = TextSpan(text: text, style: style);
+  Text textWidget = Text(text, textAlign: TextAlign.start, style: style);
   final TextSpan span = TextSpan(
     children: [
-      WidgetSpan(
-          child: Text(text, textAlign: TextAlign.start, style: style),
-          alignment: PlaceholderAlignment.middle),
+      WidgetSpan(child: textWidget, alignment: PlaceholderAlignment.middle),
     ],
   );
   final TextPainter tp = TextPainter(
@@ -57,6 +56,13 @@ void drawText(Canvas canvas, String text, Offset point, TextStyle style,
           isRtl == true ? dart_ui.TextDirection.rtl : dart_ui.TextDirection.ltr,
       textAlign: TextAlign.left,
       maxLines: maxLines);
+  tp.setPlaceholderDimensions([
+    PlaceholderDimensions(
+      size: _textSize(text, style),
+      alignment: PlaceholderAlignment.middle,
+      baseline: TextBaseline.alphabetic,
+    )
+  ]);
   tp.layout();
   canvas.save();
   canvas.translate(point.dx, point.dy);
@@ -67,6 +73,15 @@ void drawText(Canvas canvas, String text, Offset point, TextStyle style,
   }
   tp.paint(canvas, labelOffset);
   canvas.restore();
+}
+
+Size _textSize(String text, TextStyle style) {
+  final TextPainter textPainter = TextPainter(
+      text: TextSpan(text: text, style: style),
+      maxLines: 1,
+      textDirection: TextDirection.LTR)
+    ..layout(minWidth: 0, maxWidth: double.infinity);
+  return textPainter.size;
 }
 
 /// Draw the path.
