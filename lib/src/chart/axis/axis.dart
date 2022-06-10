@@ -2711,7 +2711,22 @@ class ChartAxisRendererDetails {
                         ? axis.majorTickLines.size
                         : 0));
       } else {
-        pointX = ((!axis.opposedPosition)
+        pointX = (!axis.opposedPosition)
+            ? axisRendererDetails.labelOffset ??
+                (axisBounds.left +
+                    innerPadding +
+                    (axisRendererDetails.isInsideTickPosition!
+                        ? axis.majorTickLines.size
+                        : 0))
+            : axisRendererDetails.labelOffset != null
+                ? axisRendererDetails.labelOffset! - textSize.width
+                : (axisBounds.left -
+                    axisRendererDetails.maximumLabelSize.width -
+                    innerPadding -
+                    (axisRendererDetails.isInsideTickPosition!
+                        ? axis.majorTickLines.size
+                        : 0));
+        /* pointX = ((!axis.opposedPosition)
                 ? axisRendererDetails.labelOffset != null
                     ? axisRenderer._axisRendererDetails.labelOffset! -
                         textSize.width
@@ -2727,7 +2742,7 @@ class ChartAxisRendererDetails {
                             ? 0
                             : axis.majorTickLines.size) +
                         innerPadding)))
-            .toDouble();
+            .toDouble();*/
       }
     }
     return pointX;
@@ -2766,7 +2781,7 @@ class ChartAxisRendererDetails {
                         ? axisRendererDetails.maximumLabelSize.height / 2
                         : 0);
       } else {
-        pointY = (axis.opposedPosition == true
+        pointY = (axis.opposedPosition == false
                 ? axisRendererDetails.labelOffset ??
                     (axisBounds.top +
                         ((axisRendererDetails.isInsideTickPosition!
