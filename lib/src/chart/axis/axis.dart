@@ -2711,21 +2711,6 @@ class ChartAxisRendererDetails {
                         ? axis.majorTickLines.size
                         : 0));
       } else {
-        /* pointX = (!axis.opposedPosition)
-            ? axisRendererDetails.labelOffset ??
-                (axisBounds.left +
-                    innerPadding +
-                    (axisRendererDetails.isInsideTickPosition!
-                        ? axis.majorTickLines.size
-                        : 0))
-            : axisRendererDetails.labelOffset != null
-                ? axisRendererDetails.labelOffset! - textSize.width
-                : (axisBounds.left -
-                    axisRendererDetails.maximumLabelSize.width -
-                    innerPadding -
-                    (axisRendererDetails.isInsideTickPosition!
-                        ? axis.majorTickLines.size
-                        : 0));*/
         pointX = ((axis.opposedPosition)
                 ? axisRendererDetails.labelOffset != null
                     ? axisRenderer._axisRendererDetails.labelOffset! -

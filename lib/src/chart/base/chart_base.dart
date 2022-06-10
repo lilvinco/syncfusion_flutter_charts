@@ -1890,8 +1890,7 @@ class SfCartesianChartState extends State<SfCartesianChart>
           '${SfLocalizations.of(context).series} $i';
       final CartesianSeries<dynamic, dynamic> cartesianSeries =
           seriesRendererDetails.series;
-      seriesRendererDetails.markerSettingsRenderer =
-          MarkerSettingsRenderer(seriesRendererDetails.series.markerSettings);
+      //seriesRendererDetails.markerSettingsRenderer = MarkerSettingsRenderer(seriesRendererDetails.series.markerSettings);
       Trendline trendline;
       TrendlineRenderer trendlineRenderer;
       if (cartesianSeries.trendlines != null) {
