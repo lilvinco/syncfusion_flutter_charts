@@ -11,6 +11,10 @@ dependencies:
     sdk: flutter
   intl: ^0.17.0
   vector_math: ">=2.1.0 <=3.0.0"
-  syncfusion_flutter_core: ^20.1.47
+  #syncfusion_flutter_core: ^20.1.47
+
+  syncfusion_flutter_core:
+    git:
+      url: https://github.com/lilvinco/syncfusion_flutter_core.git
 
 flutter:

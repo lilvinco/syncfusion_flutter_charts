@@ -1917,9 +1917,7 @@ void calculateDataLabelPosition(
             point,
             Size(
                 series.markerSettings.isVisible
-                    ? index == 0 || index == series.dataSource.length - 1
-                        ? series.markerSettings.width / 2
-                        : 0
+                    ? series.markerSettings.width / 2
                     : 0,
                 series.markerSettings.isVisible
                     ? series.markerSettings.height / 2

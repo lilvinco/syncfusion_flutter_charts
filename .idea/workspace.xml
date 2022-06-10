@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0ea9a15-5024-40ef-845a-362720e66cfa" name="Default Changelist" comment="series renderer">
+    <list default="true" id="d0ea9a15-5024-40ef-845a-362720e66cfa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/chart/common/data_label_renderer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/chart/common/data_label_renderer.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651345479467</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="try marker">
+      <created>1654726381044</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1654726381044</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,24 +188,25 @@
     <MESSAGE value="align left" />
     <MESSAGE value="tiy" />
     <MESSAGE value="series renderer" />
-    <option name="LAST_COMMIT_MESSAGE" value="series renderer" />
+    <MESSAGE value="try marker" />
+    <option name="LAST_COMMIT_MESSAGE" value="try marker" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1651345567950">
+    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1654726380771">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1651345567950" />
+    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1654726380771" />
     <state x="345" y="327" key="Github.ShareDialog" timestamp="1651316706111">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
     <state x="345" y="327" key="Github.ShareDialog/0.25.1440.825@0.25.1440.825" timestamp="1651316706111" />
-    <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1651345574557">
+    <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1654726404986">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="131" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1651345574557" />
-    <state x="224" y="181" width="615" height="490" key="find.popup" timestamp="1651329367979">
+    <state x="131" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1654726404986" />
+    <state x="224" y="181" width="615" height="490" key="find.popup" timestamp="1654726154011">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="224" y="181" width="615" height="490" key="find.popup/0.25.1440.825@0.25.1440.825" timestamp="1651329367979" />
+    <state x="224" y="181" width="615" height="490" key="find.popup/0.25.1440.825@0.25.1440.825" timestamp="1654726154011" />
   </component>
 </project>
