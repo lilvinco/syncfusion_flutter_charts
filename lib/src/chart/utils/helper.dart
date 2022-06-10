@@ -63,11 +63,6 @@ void drawText(Canvas canvas, String text, Offset point, TextStyle style,
       alignment: PlaceholderAlignment.middle,
       baseline: TextBaseline.ideographic,
     ),
-    PlaceholderDimensions(
-      size: _textSize(text, style),
-      alignment: PlaceholderAlignment.middle,
-      baseline: TextBaseline.ideographic,
-    )
   ]);
   tp.layout();
   canvas.save();
