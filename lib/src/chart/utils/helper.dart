@@ -68,10 +68,10 @@ void drawText(Canvas canvas, String text, Offset point, TextStyle style,
   canvas.save();
   canvas.translate(point.dx, point.dy);
   Offset labelOffset = Offset.zero;
-  if (angle != null && angle > 0) {
+  /*if (angle != null && angle > 0) {
     canvas.rotate(degreeToRadian(angle));
     labelOffset = Offset(-tp.width / 2, -tp.height / 2);
-  }
+  }*/
   tp.paint(canvas, labelOffset);
   canvas.restore();
 }
