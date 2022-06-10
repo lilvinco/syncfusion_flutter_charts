@@ -2731,7 +2731,7 @@ class ChartAxisRendererDetails {
                     ? axisRenderer._axisRendererDetails.labelOffset! -
                         textSize.width
                     : (axisBounds.left -
-                        (axisRendererDetails.isInsideTickPosition!
+                        (!axisRendererDetails.isInsideTickPosition!
                             ? 0
                             : axis.majorTickLines.size) -
                         textSize.width -
