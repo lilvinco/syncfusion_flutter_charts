@@ -2726,9 +2726,10 @@ class ChartAxisRendererDetails {
                     (axisRendererDetails.isInsideTickPosition!
                         ? axis.majorTickLines.size
                         : 0));*/
-        pointX = ((!axis.opposedPosition)
+        pointX = ((axis.opposedPosition)
                 ? axisRendererDetails.labelOffset != null
-                    ? axisRendererDetails.labelOffset! - textSize.width
+                    ? axisRenderer._axisRendererDetails.labelOffset! -
+                        textSize.width
                     : (axisBounds.left -
                         (axisRendererDetails.isInsideTickPosition!
                             ? 0
