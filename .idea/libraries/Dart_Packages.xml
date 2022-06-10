@@ -70,6 +70,7 @@
           <value>
             <list>
               <option value="$USER_HOME$/.pub-cache/git/syncfusion_flutter_core-f779cd51426c0e6b18c99af141d7a912f0a5a5b8/lib" />
+              <option value="$USER_HOME$/.pub-cache/git/syncfusion_flutter_core-53d303ba8524cf9d59f3c90ec70d091c884e2774/lib" />
             </list>
           </value>
         </entry>
@@ -90,6 +91,7 @@
       </option>
     </properties>
     <CLASSES>
+      <root url="file://$USER_HOME$/.pub-cache/git/syncfusion_flutter_core-53d303ba8524cf9d59f3c90ec70d091c884e2774/lib" />
       <root url="file://$USER_HOME$/.pub-cache/git/syncfusion_flutter_core-f779cd51426c0e6b18c99af141d7a912f0a5a5b8/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0/lib" />
