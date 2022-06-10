@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0ea9a15-5024-40ef-845a-362720e66cfa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/chart/common/data_label_renderer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/chart/common/data_label_renderer.dart" afterDir="false" />
-    </list>
+    <list default="true" id="d0ea9a15-5024-40ef-845a-362720e66cfa" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654726381044</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="core from git">
+      <created>1654819791305</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1654819791305</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,17 +191,34 @@
     <MESSAGE value="tiy" />
     <MESSAGE value="series renderer" />
     <MESSAGE value="try marker" />
-    <option name="LAST_COMMIT_MESSAGE" value="try marker" />
+    <MESSAGE value="core from git" />
+    <option name="LAST_COMMIT_MESSAGE" value="core from git" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1654726380771">
+    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1654820084163">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1654726380771" />
+    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1654820084163" />
     <state x="345" y="327" key="Github.ShareDialog" timestamp="1651316706111">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
     <state x="345" y="327" key="Github.ShareDialog/0.25.1440.825@0.25.1440.825" timestamp="1651316706111" />
+    <state width="993" height="202" key="GridCell.Tab.0.bottom" timestamp="1654820044691">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state width="993" height="202" key="GridCell.Tab.0.bottom/0.25.1440.825@0.25.1440.825" timestamp="1654820044691" />
+    <state width="993" height="202" key="GridCell.Tab.0.center" timestamp="1654820044691">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state width="993" height="202" key="GridCell.Tab.0.center/0.25.1440.825@0.25.1440.825" timestamp="1654820044691" />
+    <state width="993" height="202" key="GridCell.Tab.0.left" timestamp="1654820044690">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state width="993" height="202" key="GridCell.Tab.0.left/0.25.1440.825@0.25.1440.825" timestamp="1654820044690" />
+    <state width="993" height="202" key="GridCell.Tab.0.right" timestamp="1654820044691">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state width="993" height="202" key="GridCell.Tab.0.right/0.25.1440.825@0.25.1440.825" timestamp="1654820044691" />
     <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1654726404986">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
