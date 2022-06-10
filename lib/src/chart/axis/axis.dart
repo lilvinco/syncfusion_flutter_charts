@@ -2766,7 +2766,7 @@ class ChartAxisRendererDetails {
                         ? axisRendererDetails.maximumLabelSize.height / 2
                         : 0);
       } else {
-        pointY = (axis.opposedPosition == false
+        pointY = (axis.opposedPosition == true
                 ? axisRendererDetails.labelOffset ??
                     (axisBounds.top +
                         ((axisRendererDetails.isInsideTickPosition!

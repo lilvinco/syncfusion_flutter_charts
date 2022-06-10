@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0ea9a15-5024-40ef-845a-362720e66cfa" name="Default Changelist" comment="" />
+    <list default="true" id="d0ea9a15-5024-40ef-845a-362720e66cfa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/chart/axis/axis.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/chart/axis/axis.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/chart/utils/helper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/chart/utils/helper.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -298,7 +302,28 @@
       <option name="project" value="LOCAL" />
       <updated>1654853432242</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="text align attempt">
+      <created>1654854030341</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1654854030341</updated>
+    </task>
+    <task id="LOCAL-00038" summary="text align attempt">
+      <created>1654854132235</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1654854132235</updated>
+    </task>
+    <task id="LOCAL-00039" summary="text align attempt">
+      <created>1654854320132</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1654854320132</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -315,10 +340,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="text align attempt" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1654853432122">
+    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1654854320000">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1654853432122" />
+    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1654854320000" />
     <state x="319" y="185" key="FileChooserDialogImpl" timestamp="1654824320945">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
@@ -343,13 +368,13 @@
       <screen x="0" y="25" width="1440" height="825" />
     </state>
     <state width="993" height="202" key="GridCell.Tab.0.right/0.25.1440.825@0.25.1440.825" timestamp="1654853054381" />
-    <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1654853524613">
+    <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1654854351512">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="131" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1654853524612" />
-    <state x="224" y="181" width="615" height="490" key="find.popup" timestamp="1654824391699">
+    <state x="131" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1654854351512" />
+    <state x="224" y="181" width="615" height="490" key="find.popup" timestamp="1654860166395">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="224" y="181" width="615" height="490" key="find.popup/0.25.1440.825@0.25.1440.825" timestamp="1654824391699" />
+    <state x="224" y="181" width="615" height="490" key="find.popup/0.25.1440.825@0.25.1440.825" timestamp="1654860166395" />
   </component>
 </project>
