@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d0ea9a15-5024-40ef-845a-362720e66cfa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/chart/axis/axis.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/chart/axis/axis.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/chart/base/chart_base.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/chart/base/chart_base.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/chart/chart_series/series_renderer_properties.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/chart/chart_series/series_renderer_properties.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654863838210</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="text align attempt">
+      <created>1654866649723</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1654866649724</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -403,10 +410,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="text align attempt" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1654863838047">
+    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1654866649494">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1654863838047" />
+    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1654866649494" />
     <state x="0" y="88" key="DiffContextDialog" timestamp="1654860877201">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
@@ -435,10 +442,10 @@
       <screen x="0" y="25" width="1440" height="825" />
     </state>
     <state width="993" height="202" key="GridCell.Tab.0.right/0.25.1440.825@0.25.1440.825" timestamp="1654853054381" />
-    <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1654863845850">
+    <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1654866873391">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="131" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1654863845850" />
+    <state x="131" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1654866873391" />
     <state x="224" y="181" width="615" height="490" key="find.popup" timestamp="1654866489448">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
