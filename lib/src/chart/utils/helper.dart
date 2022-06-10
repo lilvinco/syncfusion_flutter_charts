@@ -44,7 +44,7 @@ void drawText(Canvas canvas, String text, Offset point, TextStyle style,
     [int? angle, bool? isRtl]) {
   final int maxLines = getMaxLinesContent(text);
   //final TextSpan span = TextSpan(text: text, style: style);
-  Text textWidget = Text(text, textAlign: TextAlign.start, style: style);
+  Text textWidget = Text(text, textAlign: TextAlign.left, style: style);
   final TextSpan span = TextSpan(
     children: [
       WidgetSpan(child: textWidget, alignment: PlaceholderAlignment.middle),
@@ -60,7 +60,7 @@ void drawText(Canvas canvas, String text, Offset point, TextStyle style,
     PlaceholderDimensions(
       size: _textSize(text, style),
       alignment: PlaceholderAlignment.middle,
-      baseline: TextBaseline.alphabetic,
+      baseline: TextBaseline.ideographic,
     )
   ]);
   tp.layout();
@@ -81,6 +81,7 @@ Size _textSize(String text, TextStyle style) {
       maxLines: 1,
       textDirection: TextDirection.ltr)
     ..layout(minWidth: 0, maxWidth: double.infinity);
+  print(textPainter.size);
   return textPainter.size;
 }
 
