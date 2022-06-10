@@ -47,7 +47,8 @@ void drawText(Canvas canvas, String text, Offset point, TextStyle style,
   Text textWidget = Text(text, textAlign: TextAlign.left, style: style);
   final TextSpan span = TextSpan(
     children: [
-      WidgetSpan(child: textWidget, alignment: PlaceholderAlignment.middle),
+      //WidgetSpan(child: textWidget, alignment: PlaceholderAlignment.middle),
+      TextSpan(text: text, style: style)
     ],
   );
   final TextPainter tp = TextPainter(
@@ -56,13 +57,13 @@ void drawText(Canvas canvas, String text, Offset point, TextStyle style,
           isRtl == true ? dart_ui.TextDirection.rtl : dart_ui.TextDirection.ltr,
       textAlign: TextAlign.left,
       maxLines: maxLines);
-  tp.setPlaceholderDimensions([
+/*  tp.setPlaceholderDimensions([
     PlaceholderDimensions(
       size: _textSize(text, style),
       alignment: PlaceholderAlignment.middle,
       baseline: TextBaseline.ideographic,
     )
-  ]);
+  ]);*/
   tp.layout();
   canvas.save();
   canvas.translate(point.dx, point.dy);
