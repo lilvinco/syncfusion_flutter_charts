@@ -1050,7 +1050,6 @@ void calculatePointSeriesIndex(
               stateProperties.chartSeries.visibleSeriesRenderers[i]);
       final String _seriesType = seriesRendererDetails.seriesType;
       int? pointIndex;
-      Rect? rectRegion;
       final double padding = (_seriesType == 'bubble') ||
               (_seriesType == 'scatter') ||
               (_seriesType == 'bar') ||
@@ -1071,7 +1070,6 @@ void calculatePointSeriesIndex(
         final double top = region.top - padding;
         final double bottom = region.bottom + padding;
         final Rect paddedRegion = Rect.fromLTRB(left, top, right, bottom);
-        rectRegion = paddedRegion;
         if (paddedRegion.contains(position!)) {
           pointIndex = regionRect[4].visiblePointIndex;
         }
@@ -1091,12 +1089,12 @@ void calculatePointSeriesIndex(
                   .visibleDataPoints![pointIndex!].overallDataPointIndex);
           activationMode == ActivationMode.singleTap
               ? seriesRendererDetails.series.onPointTap!(
-                  pointInteractionDetails, rectRegion)
+                  pointInteractionDetails, position)
               : activationMode == ActivationMode.doubleTap
                   ? seriesRendererDetails.series.onPointDoubleTap!(
-                      pointInteractionDetails, rectRegion)
+                      pointInteractionDetails, position)
                   : seriesRendererDetails.series.onPointLongPress!(
-                      pointInteractionDetails, rectRegion);
+                      pointInteractionDetails, position);
         }
       }
     }
