@@ -304,7 +304,10 @@ class SeriesRendererDetails {
             markerSettingsRenderer?.renderMarker(
                 this, point, animationController, canvas, pointIndex);
           }
-        } catch (e) {}
+        } catch (e, s) {
+          print(e);
+          print(s);
+        }
       }
     }
   }
