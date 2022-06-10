@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d0ea9a15-5024-40ef-845a-362720e66cfa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/lib/src/chart/chart_series/series_renderer_properties.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/chart/chart_series/series_renderer_properties.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/chart/common/marker.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/chart/common/marker.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +48,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651316282326</updated>
-    </task>
-    <task id="LOCAL-00006" summary=".series err">
-      <created>1651321635096</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1651321635096</updated>
-    </task>
-    <task id="LOCAL-00007" summary=".series err">
-      <created>1651322056299</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1651322056299</updated>
     </task>
     <task id="LOCAL-00008" summary="rtl">
       <created>1651326649107</created>
@@ -391,7 +378,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654869969444</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="hide in-between markers attempt">
+      <created>1654870319236</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1654870319237</updated>
+    </task>
+    <task id="LOCAL-00056" summary="hide in-between markers attempt">
+      <created>1654870445010</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1654870445010</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -409,10 +410,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="hide in-between markers attempt" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1654869969300">
+    <state x="82" y="25" key="CommitChangelistDialog2" timestamp="1654870444866">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1654869969300" />
+    <state x="82" y="25" key="CommitChangelistDialog2/0.25.1440.825@0.25.1440.825" timestamp="1654870444866" />
     <state x="0" y="88" key="DiffContextDialog" timestamp="1654860877201">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
@@ -441,10 +442,14 @@
       <screen x="0" y="25" width="1440" height="825" />
     </state>
     <state width="993" height="202" key="GridCell.Tab.0.right/0.25.1440.825@0.25.1440.825" timestamp="1654853054381" />
-    <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1654869982233">
+    <state x="131" y="163" key="Vcs.Push.Dialog.v2" timestamp="1654870451488">
       <screen x="0" y="25" width="1440" height="825" />
     </state>
-    <state x="131" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1654869982233" />
+    <state x="131" y="163" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1654870451488" />
+    <state x="315" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1654870439607">
+      <screen x="0" y="25" width="1440" height="825" />
+    </state>
+    <state x="315" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.825@0.25.1440.825" timestamp="1654870439607" />
     <state x="224" y="181" width="615" height="490" key="find.popup" timestamp="1654866489448">
       <screen x="0" y="25" width="1440" height="825" />
     </state>

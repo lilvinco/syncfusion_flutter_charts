@@ -299,6 +299,7 @@ class MarkerSettingsRenderer {
       Animation<double>? animationController,
       Canvas canvas,
       int markerIndex,
+      int? lastIndex,
       [int? outlierIndex]) {
     final bool isDataPointVisible = isLabelWithinRange(
         seriesRendererDetails, seriesRendererDetails.dataPoints[markerIndex]);
@@ -369,25 +370,29 @@ class MarkerSettingsRenderer {
         CartesianPointHelper.getMarkerDetails(point);
     !isBoxSeries
         ? seriesRendererDetails.markerShapes.add(isDataPointVisible
-            ? getMarkerShapesPath(
-                pointMarkerDetails?.markerType ?? markerType,
-                Offset(point.markerPoint!.x, point.markerPoint!.y),
-                pointMarkerDetails?.size ?? size,
-                seriesRendererDetails,
-                markerIndex,
-                null,
-                animationController)
+            ? markerIndex == 0 || markerIndex == lastIndex
+                ? getMarkerShapesPath(
+                    pointMarkerDetails?.markerType ?? markerType,
+                    Offset(point.markerPoint!.x, point.markerPoint!.y),
+                    pointMarkerDetails?.size ?? size,
+                    seriesRendererDetails,
+                    markerIndex,
+                    null,
+                    animationController)
+                : null
             : null)
         : seriesRendererDetails.markerShapes.add(isDataPointVisible
-            ? getMarkerShapesPath(
-                pointMarkerDetails?.markerType ?? markerType,
-                Offset(point.outliersPoint[outlierIndex!].x,
-                    point.outliersPoint[outlierIndex].y),
-                pointMarkerDetails?.size ?? size,
-                seriesRendererDetails,
-                markerIndex,
-                null,
-                animationController)
+            ? markerIndex == 0 || markerIndex == lastIndex
+                ? getMarkerShapesPath(
+                    pointMarkerDetails?.markerType ?? markerType,
+                    Offset(point.outliersPoint[outlierIndex!].x,
+                        point.outliersPoint[outlierIndex].y),
+                    pointMarkerDetails?.size ?? size,
+                    seriesRendererDetails,
+                    markerIndex,
+                    null,
+                    animationController)
+                : null
             : null);
     if (seriesRendererDetails.seriesType.contains('range') == true) {
       seriesRendererDetails.markerShapes2.add(isDataPointVisible
