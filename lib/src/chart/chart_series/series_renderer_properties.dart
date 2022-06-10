@@ -294,7 +294,6 @@ class SeriesRendererDetails {
             series.markerSettings.width >= 0,
         'The width of the marker must be greater than or equal to 0.');
     for (int pointIndex = 0; pointIndex < dataPoints.length; pointIndex++) {
-      print("$pointIndex : ${dataPoints.length}");
       final CartesianChartPoint<dynamic> point = dataPoints[pointIndex];
       if ((series.markerSettings.isVisible &&
               renderer is! BoxAndWhiskerSeriesRenderer) ||

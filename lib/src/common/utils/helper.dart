@@ -1050,6 +1050,7 @@ void calculatePointSeriesIndex(
               stateProperties.chartSeries.visibleSeriesRenderers[i]);
       final String _seriesType = seriesRendererDetails.seriesType;
       int? pointIndex;
+      Rect? rectRegion;
       final double padding = (_seriesType == 'bubble') ||
               (_seriesType == 'scatter') ||
               (_seriesType == 'bar') ||
@@ -1070,6 +1071,7 @@ void calculatePointSeriesIndex(
         final double top = region.top - padding;
         final double bottom = region.bottom + padding;
         final Rect paddedRegion = Rect.fromLTRB(left, top, right, bottom);
+        rectRegion = paddedRegion;
         if (paddedRegion.contains(position!)) {
           pointIndex = regionRect[4].visiblePointIndex;
         }
@@ -1088,13 +1090,13 @@ void calculatePointSeriesIndex(
               seriesRendererDetails
                   .visibleDataPoints![pointIndex!].overallDataPointIndex);
           activationMode == ActivationMode.singleTap
-              ? seriesRendererDetails
-                  .series.onPointTap!(pointInteractionDetails)
+              ? seriesRendererDetails.series.onPointTap!(
+                  pointInteractionDetails, rectRegion)
               : activationMode == ActivationMode.doubleTap
-                  ? seriesRendererDetails
-                      .series.onPointDoubleTap!(pointInteractionDetails)
-                  : seriesRendererDetails
-                      .series.onPointLongPress!(pointInteractionDetails);
+                  ? seriesRendererDetails.series.onPointDoubleTap!(
+                      pointInteractionDetails, rectRegion)
+                  : seriesRendererDetails.series.onPointLongPress!(
+                      pointInteractionDetails, rectRegion);
         }
       }
     }
@@ -1112,12 +1114,12 @@ void calculatePointSeriesIndex(
               .chartSeries.visibleSeriesRenderers[seriesIndex].dataPoints,
           pointRegion?.pointIndex);
       activationMode == ActivationMode.singleTap
-          ? chart.series[seriesIndex].onPointTap!(pointInteractionDetails)
+          ? chart.series[seriesIndex].onPointTap!(pointInteractionDetails, null)
           : activationMode == ActivationMode.doubleTap
-              ? chart.series[seriesIndex]
-                  .onPointDoubleTap!(pointInteractionDetails)
-              : chart.series[seriesIndex]
-                  .onPointLongPress!(pointInteractionDetails);
+              ? chart.series[seriesIndex].onPointDoubleTap!(
+                  pointInteractionDetails, null)
+              : chart.series[seriesIndex].onPointLongPress!(
+                  pointInteractionDetails, null);
     }
   } else {
     int? index;

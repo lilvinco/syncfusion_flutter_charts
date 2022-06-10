@@ -51,7 +51,7 @@ typedef ChartZoomingCallback = void Function(ZoomPanArgs zoomingArgs);
 
 /// Returns the  ChartPointDetails.
 typedef ChartPointInteractionCallback = void Function(
-    ChartPointDetails pointInteractionDetails);
+    ChartPointDetails pointInteractionDetails, Rect? rect);
 
 /// Returns the  AxisLabelTapArgs.
 typedef ChartAxisLabelTapCallback = void Function(
