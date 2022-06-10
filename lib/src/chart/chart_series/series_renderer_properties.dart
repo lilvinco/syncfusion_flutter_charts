@@ -295,14 +295,16 @@ class SeriesRendererDetails {
         'The width of the marker must be greater than or equal to 0.');
     for (int pointIndex = 0; pointIndex < dataPoints.length; pointIndex++) {
       print("$pointIndex : ${dataPoints.length}");
-      if (pointIndex == 0 || pointIndex == 1) {
-        final CartesianChartPoint<dynamic> point = dataPoints[pointIndex];
-        if ((series.markerSettings.isVisible &&
-                renderer is! BoxAndWhiskerSeriesRenderer) ||
-            renderer is ScatterSeriesRenderer) {
-          markerSettingsRenderer?.renderMarker(
-              this, point, animationController, canvas, pointIndex);
-        }
+      if (pointIndex == 0 || pointIndex == dataPoints.length - 1) {
+        try {
+          final CartesianChartPoint<dynamic> point = dataPoints[pointIndex];
+          if ((series.markerSettings.isVisible &&
+                  renderer is! BoxAndWhiskerSeriesRenderer) ||
+              renderer is ScatterSeriesRenderer) {
+            markerSettingsRenderer?.renderMarker(
+                this, point, animationController, canvas, pointIndex);
+          }
+        } catch (e) {}
       }
     }
   }
