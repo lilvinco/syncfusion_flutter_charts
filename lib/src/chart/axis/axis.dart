@@ -2726,7 +2726,7 @@ class ChartAxisRendererDetails {
                     (axisRendererDetails.isInsideTickPosition!
                         ? axis.majorTickLines.size
                         : 0));
-        /* pointX = ((!axis.opposedPosition)
+        pointX = ((!axis.opposedPosition)
                 ? axisRendererDetails.labelOffset != null
                     ? axisRenderer._axisRendererDetails.labelOffset! -
                         textSize.width
@@ -2739,10 +2739,10 @@ class ChartAxisRendererDetails {
                 : (axisRendererDetails.labelOffset ??
                     (axisBounds.left +
                         (axisRendererDetails.isInsideTickPosition!
-                            ? 0
-                            : axis.majorTickLines.size) +
+                            ? axis.majorTickLines.size
+                            : 0) +
                         innerPadding)))
-            .toDouble();*/
+            .toDouble();
       }
     }
     return pointX;
