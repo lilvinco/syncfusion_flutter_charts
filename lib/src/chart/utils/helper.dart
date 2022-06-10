@@ -57,13 +57,13 @@ void drawText(Canvas canvas, String text, Offset point, TextStyle style,
           isRtl == true ? dart_ui.TextDirection.rtl : dart_ui.TextDirection.ltr,
       textAlign: TextAlign.left,
       maxLines: maxLines);
-  tp.setPlaceholderDimensions([
+  /*tp.setPlaceholderDimensions([
     PlaceholderDimensions(
       size: _textSize(text, style),
       alignment: PlaceholderAlignment.middle,
       baseline: TextBaseline.ideographic,
     ),
-  ]);
+  ]);*/
   tp.layout();
   canvas.save();
   canvas.translate(point.dx, point.dy);
