@@ -374,7 +374,9 @@ class MarkerSettingsRenderer {
                 ? getMarkerShapesPath(
                     pointMarkerDetails?.markerType ?? markerType,
                     Offset(point.markerPoint!.x, point.markerPoint!.y),
-                    pointMarkerDetails?.size ?? size,
+                    markerIndex == 0
+                        ? pointMarkerDetails?.size ?? size
+                        : Size(10.1, 10.1),
                     seriesRendererDetails,
                     markerIndex,
                     null,
@@ -387,7 +389,9 @@ class MarkerSettingsRenderer {
                     pointMarkerDetails?.markerType ?? markerType,
                     Offset(point.outliersPoint[outlierIndex!].x,
                         point.outliersPoint[outlierIndex].y),
-                    pointMarkerDetails?.size ?? size,
+                    markerIndex == 0
+                        ? pointMarkerDetails?.size ?? size
+                        : Size(10.1, 10.1),
                     seriesRendererDetails,
                     markerIndex,
                     null,
